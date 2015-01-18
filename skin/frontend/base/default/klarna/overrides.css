@@ -1,0 +1,7 @@
+.klarna_box_bottom_right label {
+    width: auto !important;
+}
+
+.klarna_box_bottom input, .klarna_box_bottom select {
+    width: auto !important;
+}

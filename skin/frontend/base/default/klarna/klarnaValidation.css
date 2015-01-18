@@ -1,0 +1,23 @@
+
+/** Remove Magento validation advices **/
+#payment_form_klarna_invoice .validation-advice {
+    display: none;
+}
+#payment_form_klarna_invoice .validation-failed {
+    border: 1px solid #DD0000 !important;
+}
+
+#payment_form_klarna_partpayment .validation-advice {
+    display: none;
+}
+#payment_form_klarna_partpayment .validation-failed {
+    border: 1px solid #DD0000 !important;
+}
+
+#payment_form_klarna_specpayment .validation-advice {
+    display: none;
+}
+#payment_form_klarna_specpayment .validation-failed {
+    border: 1px solid #DD0000 !important;
+}
+

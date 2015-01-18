@@ -1,0 +1,30 @@
+.pclassTable td, .pclassTable th {
+    padding: 3px;
+}
+
+ul.tabs a.klarna_label span,
+ul.tabs a.klarna_label:hover span
+{
+    background: url("//cdn.klarna.com/public/images/SE/logos/v1/basic/SE_basic_logo_std_blue-black.png?height=14") no-repeat scroll 0 0 transparent;
+    height: 0;
+    overflow: hidden;
+    padding: 14px 0 0;
+}
+
+ul.tabs a.klarna_label, ul.tabs a.klarna_label:hover {
+    background: url("../../../default/default/images/tabs_span_bg.gif") repeat-x scroll 0 100% transparent;
+    border-bottom: medium none;
+    padding: 0.5em 0.5em 0.28em 1.5em;
+}
+
+#klarna_general_settings_activated_countries {
+    height: 11em;
+}
+
+#klarna-settings-hint {
+    background: url("//cdn.klarna.com/public/images/SE/logos/v1/basic/SE_basic_logo_std_blue-black.png?height=24") no-repeat scroll 5px center;
+    border: 1px solid #389FD3;
+    margin-bottom: 10px;
+    height: 24px;
+    padding: 10px 10px 10px 180px;
+}
