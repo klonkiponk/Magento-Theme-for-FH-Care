@@ -1,4 +1,8 @@
-jQuery(document).ready(function($) {      
+jQuery(document).ready(function($) {     
+	/* STYLING */
+	$("select").addClass("form-control");
+	
+	 
 	$("#qty").val("1");
 	$("#plus").click(function(){
 		var value = parseInt($("#qty").val(),10);
